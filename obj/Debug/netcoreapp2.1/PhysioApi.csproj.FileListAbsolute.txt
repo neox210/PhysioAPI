@@ -1,0 +1,14 @@
+/home/neox210/Projects/Physio/PhysioApi/bin/Debug/netcoreapp2.1/PhysioApi.deps.json
+/home/neox210/Projects/Physio/PhysioApi/bin/Debug/netcoreapp2.1/PhysioApi.runtimeconfig.json
+/home/neox210/Projects/Physio/PhysioApi/bin/Debug/netcoreapp2.1/PhysioApi.runtimeconfig.dev.json
+/home/neox210/Projects/Physio/PhysioApi/bin/Debug/netcoreapp2.1/PhysioApi.dll
+/home/neox210/Projects/Physio/PhysioApi/bin/Debug/netcoreapp2.1/PhysioApi.pdb
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.csprojAssemblyReference.cache
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.csproj.CoreCompileInputs.cache
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.RazorAssemblyInfo.cache
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.RazorAssemblyInfo.cs
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.AssemblyInfoInputs.cache
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.AssemblyInfo.cs
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.RazorTargetAssemblyInfo.cache
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.dll
+/home/neox210/Projects/Physio/PhysioApi/obj/Debug/netcoreapp2.1/PhysioApi.pdb
