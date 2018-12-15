@@ -16,5 +16,9 @@ namespace PhysioApi.Persistence
         public virtual DbSet<Visit> Visits { get; set; }
         public virtual DbSet<GroupVisit> GroupVisits { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Add here modelbuilder configuration :TODO
+        }
     }
 }
