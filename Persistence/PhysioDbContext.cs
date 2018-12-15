@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using PhysioApi.Core.Models;
+using PhysioApi.Persistence.EntityConfiguration;
 
 namespace PhysioApi.Persistence
 {
@@ -18,7 +19,10 @@ namespace PhysioApi.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Add here modelbuilder configuration :TODO
+            modelBuilder.ApplyConfiguration(new PatientConfiguration());
+            modelBuilder.ApplyConfiguration(new PhysioConfiguration());
+            modelBuilder.ApplyConfiguration(new VisitConfiguration());
+            modelBuilder.ApplyConfiguration(new GroupVisitConfiguration());
         }
     }
 }
