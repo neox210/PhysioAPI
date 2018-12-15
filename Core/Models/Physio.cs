@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace PhysioApi.Core.Models
 {
     public class Physio
@@ -10,5 +12,7 @@ namespace PhysioApi.Core.Models
         public string PostalCode { get; set; }
         public string HomePhone { get; set; }
         public string MobilePhone { get; set; }
+        public Collection<Visit> Visits { get; set; }
+        public Collection<GroupVisit> GroupVisits { get; set; }
     }
 }
