@@ -4,9 +4,9 @@ namespace PhysioApi.Services.Interfaces
 {
     public interface IGroupVisitService
     {
-         void AddGroupVisit(GroupVisit GroupVisit);
-         void EditGroupVisit(GroupVisit GroupVisit);
-         void DeleteGroupVisit(GroupVisit GroupVisit);
+         void AddGroupVisit(GroupVisit groupVisit);
+         void EditGroupVisit(GroupVisit groupVisit);
+         void DeleteGroupVisit(GroupVisit groupVisit);
          GroupVisit GetGroupVisit(int id);       
     }
 }

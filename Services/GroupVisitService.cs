@@ -14,21 +14,21 @@ namespace PhysioApi.Services
             this._unitOfWork = unitOfWork;
         }
 
-        public void AddGroupVisit(GroupVisit GroupVisit)
+        public void AddGroupVisit(GroupVisit groupVisit)
         {
-            _unitOfWork.GroupVisits.Add(GroupVisit);
+            _unitOfWork.GroupVisits.Add(groupVisit);
             _unitOfWork.Complete();
         }
 
-        public void DeleteGroupVisit(GroupVisit GroupVisit)
+        public void DeleteGroupVisit(GroupVisit groupVisit)
         {
-            _unitOfWork.GroupVisits.Remove(GroupVisit);
+            _unitOfWork.GroupVisits.Remove(groupVisit);
             _unitOfWork.Complete();
         }
 
-        public void EditGroupVisit(GroupVisit GroupVisit)
+        public void EditGroupVisit(GroupVisit groupVisit)
         {
-            _unitOfWork.GroupVisits.Update(GroupVisit);
+            _unitOfWork.GroupVisits.Update(groupVisit);
             _unitOfWork.Complete();
         }
 
