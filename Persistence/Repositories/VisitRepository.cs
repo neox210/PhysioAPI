@@ -11,6 +11,5 @@ namespace PhysioApi.Persistence.Repositories
         public VisitRepository(PhysioDbContext context) : base(context)
         {
         }
-
     }
 }
