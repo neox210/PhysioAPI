@@ -57,5 +57,10 @@ namespace PhysioApi.Persistence.Repositories
         {
             _entities.RemoveRange(entities);
         }
+
+        public void Update(TEntity entity)
+        {
+            _entities.Update(entity);
+        }
     }
 }
